@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+*{
+    font-family: Roboto;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#navbar{
+    padding: 10px 10px;
+}
+
+#navbar img{
+    width: 50px;
+}
+
+#search-container{
+    background-image: url('/img/banner.jpg');
+    background-size: cover;
+    background-position: center;
+
+    width: 2000px;
+    height: 650px;
+}
+
+.container-fluid{
+    padding: 0;
+}
