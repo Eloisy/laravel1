@@ -10,8 +10,7 @@
     <!-- Fonte do Google -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto" rel="stylesheet">
 
-    <link rel="stylesheet" href="/css/styles.css">
-
+    <link rel="stylesheet" href="{{ asset('css/styles.css') }}">
     <script src="/js/scripts.js"></script>
 
     <!-- CSS -->
@@ -23,7 +22,7 @@
         <nav class="navbar navbar-expand-lg navbar-light">
             <div class="collapse navbar-collapse" id="navbar">
                 <a href="/" class="navbar-brand">
-                    <img src="{{ asset('img/hdcevents_logo.svg') }}" alt="HDC Events">                </a>
+                    <img src="{{ asset('img/hdcevents_logo.svg') }}"style="height:60px;" alt="HDC Events">                </a>
                 <ul class="navbar-nav">
                     <li class="nav-item">
                         <a href="/" class="nav-link">Eventos</a>
